@@ -1,0 +1,22 @@
+binario = input("Ingresa el número binario: ")
+        decimal = binario_a_decimal(binario)
+        print("El valor en decimal es:", decimal)
+   
+        decimal = int(input("Ingresa el número decimal: "))
+        binario = decimal_a_binario(decimal)
+        print("El valor en binario es:", binario)
+    
+        a = float(input("Ingresa el primer número: "))
+        b = float(input("Ingresa el segundo número: "))
+        resultado = suma(a, b)
+        print("La suma es:", resultado)
+        a = float(input("Ingresa el primer número: "))
+        b = float(input("Ingresa el segundo número: "))
+        resultado = resta(a, b)
+        print("La resta es:", resultado)
+    elif opcion == "5":
+        a = float(input("Ingresa el primer número: "))
+        b = float(input("Ingresa el segundo número: "))
+        resultado = multiplicacion(a, b)
+        print("La multiplicación es:", resultado)
+    
